@@ -1,0 +1,36 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "extends": [
+    "plugin:vue/essential",
+    "airbnb-base"
+  ],
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "parser": "@typescript-eslint/parser",
+    "sourceType": "module"
+  },
+  "plugins": [
+    "vue",
+    "@typescript-eslint"
+  ],
+  "rules": {
+    "no-restricted-exports": "off",
+    "no-loss-of-precision": "off",
+    "no-promise-executor-return": "off",
+    "no-unreachable-loop": "off",
+    "no-unsafe-optional-chaining": "off",
+    "no-useless-backreference": "off",
+    "default-case-last": "off",
+    "no-nonoctal-decimal-escape": "off",
+    "import/extensions": "off",
+    "class-methods-use-this": "off",
+    "import/no-unresolved": "off"
+  }
+}

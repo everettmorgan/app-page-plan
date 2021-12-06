@@ -1,0 +1,39 @@
+* {
+    font-family: Monteserrat, sans-serif !important;
+}
+
+.highlightPlan {
+    color: #f66035 !important;
+}
+
+.appPagePlan {
+    width: 375px !important;
+    border-radius: 5px !important;
+    color: #2f373a !important;
+    border-top: 10px solid #f66035 !important;
+    border-left: solid 1px #dbe0e5 !important;
+    border-right: solid 1px #dbe0e5 !important;
+    border-bottom: solid 1px #dbe0e5 !important;
+}
+
+.appPagePlanInner {
+    margin: 25px !important;
+}
+
+.appPagePlanName {
+    margin-bottom: 0 !important;
+}
+
+.appPagePlanSub {
+    color: #2f373a !important;
+}
+
+.appPagePlanPrice {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.appPagePlanFeature {
+    padding: 0 35px !important;
+    font-size: 18px !important;
+}
